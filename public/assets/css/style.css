@@ -4,12 +4,24 @@ body{
     font-family: Mulish;
 }
 
-img{
-    background-color: blue;
+.profile{
+    outline: 1px solid #A4A6B3;
+    outline-offset: 2px;
     border-radius: 50%;
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     margin-right: 8px;
+    background-image: url('../css/profile.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: 13px;
+    background-color: #3751FF;
 }
 
 .navbar a {
@@ -59,4 +71,12 @@ img{
 
 .green{
     background-color: green;
+}
+
+.graph {
+    background-image: url(../css/graph.png);
+    background-size: contain;
+    /* background-color: #9FA2B4; */
+    width: 800px;
+    height: 480px;
 }
