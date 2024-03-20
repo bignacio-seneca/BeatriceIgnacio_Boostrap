@@ -60,8 +60,32 @@ body{
     background-color: #ffffff;
 }
 
+.grey-left-outline{
+    border-left: 1px solid #DFE0EB;
+    background-color: #ffffff;
+}
+
+.grey-bottom-outline{
+    border-bottom: 1px solid #DFE0EB;
+    background-color: #ffffff;
+}
+
 .grey-header{
     color: #9FA2B4;
+}
+
+
+.graph {
+    background-image: url(../css/graph.png);
+    background-size: contain;
+    /* background-color: #9FA2B4; */
+    width: 800px;
+    height: 480px;
+}
+
+.bottom-card{
+    width: 690px;
+    height: 400px;
 }
 
 
@@ -73,10 +97,6 @@ body{
     background-color: green;
 }
 
-.graph {
-    background-image: url(../css/graph.png);
-    background-size: contain;
-    /* background-color: #9FA2B4; */
-    width: 800px;
-    height: 480px;
+.blue {
+    background-color: blueviolet;
 }
