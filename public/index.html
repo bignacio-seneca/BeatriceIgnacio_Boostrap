@@ -30,7 +30,7 @@
         col-sm-2: take up 2/12 columns from small to xl
         col-2: take up 2/12 columns on mobile-->
         <div class="col-sm-2 d-flex flex-column justify-content-between bg-dark min-vh-100">
-          <nav class="navbar mt-4 ms-2">
+          <nav class="navbar mt-5 ms-2">
             <div>
               <!--logo and brand-->
               <!--align-items-center: vertically center
@@ -41,7 +41,7 @@
               </a>
             </div>
             
-            <div id="menu">
+            <div id="menu" class="mt-3 ms-2">
               <ul class="nav d-flex flex-column">
 
                 <li>
@@ -123,24 +123,46 @@
         </div>
 
         <!-- DASHBOARD -->
-        <div class="col-sm-10 mt-4 ps-5">
+        <div class="col-sm-10 mt-5 px-5 ">
 
           <!-- HEADER -->
-          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex justify-content-between">
             <span class="title">Overview</span>
 
-            <!-- PROFILE -->
-            <div class="d-flex align-items-center mb-5">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <i class="fa-solid fa-bell"></i>
-              <p>Jones Ferdinand</p>
+            <!-- ICONS & PROFILE -->
+            <div class="d-flex">
+              <i class="fa-solid fa-magnifying-glass me-5"></i>
+              <i class="fa-solid fa-bell me-5"></i>
+              <p class="me-5">Jones Ferdinand</p>
               <img src="" alt="" class="navbar-brand">
             </div>
-            
           </div>
 
-          <div class="card">
+          <!-- Top Row -->
+          <div class="row d-flex justify-content-between">
+            <div class="card col-sm-3 mt-5 align-items-center justify-content-center">
+              <h5 class="grey-header">Unresolved</h5>
+              <h1 class="card-title">23</h1>
+            </div>
+            <div class="card col-sm-3 mt-5 align-items-center justify-content-center">
+              <h5 class="grey-header">Overdue</h5>
+              <h1 class="card-title">16</h1>
+            </div>
+            <div class="card col-sm-3 mt-5 align-items-center justify-content-center">
+              <h5 class="grey-header">Open</h5>
+              <h1 class="card-title">43</h1>
+            </div>
+            <div class="card col-sm-3 mt-5 align-items-center justify-content-center">
+              <h5 class="grey-header">On Hold</h5>
+              <h1 class="card-title">64</h1>
+            </div>
+          </div>
 
+          <!-- 2nd Row -->
+          <div class="row">
+            <div class="col-sm-12 pink second-row mt-4">
+              kjhkj
+            </div>
           </div>
 
         </div>

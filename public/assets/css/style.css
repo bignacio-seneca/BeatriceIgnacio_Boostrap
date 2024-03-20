@@ -27,15 +27,31 @@ img{
 }
 
 .nav li {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .title{
     font-size:24px;
     font-family: Mulish;
     font-weight: 600;
+    margin-top: 10px;
 }
 
+.card{
+    width: 330px;
+    height: 145px;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+.second-row {
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+.grey-header{
+    color: #9FA2B4;
+}
 
 
 .pink{
