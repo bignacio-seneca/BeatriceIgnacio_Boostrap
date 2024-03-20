@@ -37,16 +37,15 @@ img{
     margin-top: 10px;
 }
 
-.card{
+.top-card{
     width: 330px;
     height: 145px;
-    border: 1px solid #DFE0EB;
-    border-radius: 8px;
 }
 
-.second-row {
+.card-outline{
     border: 1px solid #DFE0EB;
     border-radius: 8px;
+    background-color: #ffffff;
 }
 
 .grey-header{
@@ -56,4 +55,8 @@ img{
 
 .pink{
     background-color: pink;
+}
+
+.green{
+    background-color: green;
 }
