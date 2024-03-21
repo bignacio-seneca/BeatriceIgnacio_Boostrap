@@ -88,15 +88,44 @@ body{
     height: 400px;
 }
 
+.table {
+    height: 240px;
+}
+
 
 .pink{
     background-color: pink;
 }
 
 .green{
-    background-color: green;
+    background-color: #29CC97;
 }
 
 .blue {
     background-color: blueviolet;
+}
+
+.yellow{
+    background-color: #FEC400;
+}
+
+.grey {
+    background-color: #F0F1F7;
+    color: #9FA2B4;
+}
+
+input[type="radio"] {
+    transform: scale(1.5); /* Scale the radio button to 1.5 times its original size */
+
+}
+
+.customer-radio input[type="radio"] {
+    display: none;
+}
+
+.custom-radio .radio-btn {
+  width: 20px;
+  height: 20px;
+  border: 5px solid #0DFF92;
+  border-radius: 50%;
 }
