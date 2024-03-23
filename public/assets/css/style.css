@@ -119,13 +119,10 @@ input[type="radio"] {
 
 }
 
-.customer-radio input[type="radio"] {
-    display: none;
+.radio{
+    margin-right: 10px;
 }
 
-.custom-radio .radio-btn {
-  width: 20px;
-  height: 20px;
-  border: 5px solid #0DFF92;
-  border-radius: 50%;
+.header-icons {
+    margin-top: 13px;
 }
