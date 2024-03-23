@@ -4,6 +4,15 @@ body{
     font-family: Mulish;
 }
 
+h6 {
+    font-family: Mulish;
+}
+
+.secondheader{
+    font-size: 16px;
+}
+
+
 .profile{
     outline: 1px solid #A4A6B3;
     outline-offset: 2px;
@@ -21,7 +30,8 @@ body{
     width: 35px;
     height: 35px;
     margin-right: 13px;
-    background-color: #3751FF;
+    background-image: url('../css/logo.png');
+    background-size: cover;
 }
 
 .navbar a {
@@ -60,6 +70,10 @@ body{
     background-color: #ffffff;
 }
 
+.card-title{
+    font-weight: 600;
+}
+
 .grey-left-outline{
     border-left: 1px solid #DFE0EB;
     background-color: #ffffff;
@@ -78,7 +92,6 @@ body{
 .graph {
     background-image: url(../css/graph.png);
     background-size: contain;
-    /* background-color: #9FA2B4; */
     width: 800px;
     height: 480px;
 }
@@ -92,18 +105,6 @@ body{
     height: 240px;
 }
 
-
-.pink{
-    background-color: pink;
-}
-
-.green{
-    background-color: #29CC97;
-}
-
-.blue {
-    background-color: blueviolet;
-}
 
 .yellow{
     background-color: #FEC400;
@@ -125,4 +126,165 @@ input[type="radio"] {
 
 .header-icons {
     margin-top: 13px;
+}
+
+.navbar-toggler{
+    background-color: #A4A6B3;
+}
+
+.green{
+    background-color: green;
+}
+
+.second-number{
+    font-size: 30px;
+    font-family: Mulish;
+}
+
+.dash {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+@media (max-width: 375px){
+    
+    .top-card{
+        margin-left: -40px;
+    }
+
+    #menu {
+        position: relative;
+        left: -250px;
+        top: 40px;
+
+    }
+
+    .navbar{
+        position: relative;
+        top: -20px;
+    }
+
+    .header-icons {
+        position: relative;
+        right: -15px;
+    }
+
+    .title{
+        position: relative;
+        top: -9px;
+    }
+    
+    .graph {
+        margin-left: -70px;
+        transform: scale(0.6);
+    }
+
+
+    .secondrow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grey-left-outline {
+        border-left: none;
+        position: relative;
+        left: -20px;
+    }
+
+    .bottom-card{
+        margin-top: 10px;
+    }
+
+
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .days {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .h5mobile{
+        text-align: center;
+    }
+
+    .dash{
+        padding-left: -10px;
+    }
+
+
+}
+
+@media (max-width: 600px){
+
+
+    #menu {
+        position: relative;
+        left: -250px;
+        top: 40px;
+
+    }
+
+    .navbar{
+        position: relative;
+        top: -20px;
+    }
+
+    .header-icons {
+        position: relative;
+        right: -15px;
+    }
+
+    .title{
+        position: relative;
+        top: -9px;
+    }
+
+    .graph {
+        background-image: url(../css/graph.png);
+        background-size: contain;
+        width: 340px;
+        height: 200px;
+    }
+
+    .secondrow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grey-left-outline {
+        border-left: none;
+        position: relative;
+        left: -20px;
+    }
+
+    .bottom-card{
+        margin-top: 10px;
+    }
+
+
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .days {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .h5mobile{
+        text-align: center;
+    }
+
+    .toprow{
+        position: relative;
+        left: 40px;
+    }
+
 }

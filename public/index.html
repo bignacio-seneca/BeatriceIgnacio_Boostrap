@@ -36,104 +36,120 @@
         col-sm-2: take up 2/12 columns from small to xl
         col-2: take up 2/12 columns on mobile-->
         
-      <div class="col-sm-2 d-flex flex-column justify-content-between bg-dark min-vh-100">
-        <nav class="navbar mt-5 ms-2">
-          <div>
+      <div class="sidebar col-sm-2 d-flex flex-column bg-dark">
+
+        <nav class="navbar navbar-expand-sm d-flex flex-column mt-5 ms-2 align-items-start">
+
+          <div class="d-flex">
             <!--logo and brand-->
             <!--align-items-center: vertically center
               ms-4: add margin to the left (start)-->
-            <a href="" class="text-decoration-none d-flex align-items-center ms-4 mb-4 text-white">
-              <img src="" alt="" class="navbar-brand logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <a href="" class="text-decoration-none d-flex align-items-center ms-4 text-white">
+              <div class="navbar-brand logo"></div>
               <span class="brand">Dashboard Kit</span>
             </a>
+
           </div>
 
-          <div id="menu" class="mt-3 ms-2">
-            <ul class="nav d-flex flex-column">
 
-              <li>
-                <a href="" class="nav-link d-flex">
-                  <div class="icon d-flex align-items-center me-3">
-                    <i class="fa-solid fa-chart-pie"></i>
-                  </div>
-                  <span>Overview</span>
-                </a>
-              </li>
 
-              <li>
-                <a href="" class="nav-link d-flex">
-                  <div class="icon d-flex align-items-center me-3">
-                    <i class="fa-solid fa-ticket"></i>
-                  </div>
-                  <span>Tickets</span>
-                </a>
-              </li>
 
-              <li>
-                <a href="" class="nav-link d-flex">
-                  <div class="icon d-flex justify-content-center align-items-center me-3">
-                    <i class="fa-solid fa-lightbulb me-1 ms-1"></i>
-                  </div>
-                  <span>Ideas</span>
-                </a>
-              </li>
+          <div id="menu" class="collapse navbar-collapse mt-5">
+            <div class="d-flex flex-column ">
+              <ul class="nav d-flex flex-column">
 
-              <li>
-                <a href="" class="nav-link d-flex">
-                  <div class="icon d-flex justify-content-center align-items-center me-3">
-                    <i class="fa-solid fa-users"></i>
-                  </div>
-                  <span>Customers</span>
-                </a>
-              </li>
-
-              <li>
-                <a href="" class="nav-link d-flex">
-                  <div class="icon d-flex justify-content-center align-items-center me-3">
-                    <i class="fa-solid fa-user-tie me-2"></i>
-                  </div>
-                  <span>Agents</span>
-                </a>
-              </li>
-              <li>
-                <a href="" class="nav-link d-flex">
-                  <div class="icon d-flex justify-content-center align-items-center me-3">
-                    <i class="fa-solid fa-book me-2"></i>
-                  </div>
-                  <span>Articles</span>
-                </a>
-              </li>
-            </ul>
-
-            <ul class="nav d-flex flex-column mt-3">
-
-              <li>
-                <a href="" class="nav-link d-flex">
-                  <div class="icon d-flex justify-content-center align-items-center me-3">
-                    <i class="fa-solid fa-gear me-2"></i>
-                  </div>
-                  <span>Settings</span>
-                </a>
-              </li>
-
-              <li>
-                <a href="" class="nav-link d-flex">
-                  <div class="icon d-flex justify-content-center align-items-center me-3">
-                    <i class="fa-solid fa-award me-2"></i>
-                  </div>
-                  <span>Subscription</span>
-                </a>
-              </li>
-            </ul>
+                <li class="nav-item">
+                  <a href="" class="nav-link d-flex">
+                    <div class="icon d-flex align-items-center me-3">
+                      <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <span>Overview</span>
+                  </a>
+                </li>
+  
+                <li class="nav-item">
+                  <a href="" class="nav-link d-flex">
+                    <div class="icon d-flex align-items-center me-3">
+                      <i class="fa-solid fa-ticket"></i>
+                    </div>
+                    <span>Tickets</span>
+                  </a>
+                </li>
+  
+                <li class="nav-item">
+                  <a href="" class="nav-link d-flex">
+                    <div class="icon d-flex justify-content-center align-items-center me-3">
+                      <i class="fa-solid fa-lightbulb me-1 ms-1"></i>
+                    </div>
+                    <span>Ideas</span>
+                  </a>
+                </li>
+  
+                <li class="nav-item">
+                  <a href="" class="nav-link d-flex">
+                    <div class="icon d-flex justify-content-center align-items-center me-3">
+                      <i class="fa-solid fa-users"></i>
+                    </div>
+                    <span>Customers</span>
+                  </a>
+                </li>
+  
+                <li class="nav-item">
+                  <a href="" class="nav-link d-flex">
+                    <div class="icon d-flex justify-content-center align-items-center me-3">
+                      <i class="fa-solid fa-user-tie me-2"></i>
+                    </div>
+                    <span>Agents</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link d-flex">
+                    <div class="icon d-flex justify-content-center align-items-center me-3">
+                      <i class="fa-solid fa-book me-2"></i>
+                    </div>
+                    <span>Articles</span>
+                  </a>
+                </li>
+              </ul>
+  
+              <ul class="nav d-flex flex-column mt-3">
+  
+                <li class="nav-item">
+                  <a href="" class="nav-link d-flex">
+                    <div class="icon d-flex justify-content-center align-items-center me-3">
+                      <i class="fa-solid fa-gear me-2"></i>
+                    </div>
+                    <span>Settings</span>
+                  </a>
+                </li>
+  
+                <li class="nav-item">
+                  <a href="" class="nav-link d-flex">
+                    <div class="icon d-flex justify-content-center align-items-center me-3">
+                      <i class="fa-solid fa-award me-2"></i>
+                    </div>
+                    <span>Subscription</span>
+                  </a>
+                </li>
+  
+              </ul>
+            </div>
+            
           </div>
         </nav>
       </div>
 
+
       <!-- DASHBOARD -->
-      <div class="col-sm-10 mt-5 px-5 ">
+      <div class="col-sm-10 mt-5 dash">
 
         <!-- HEADER -->
-        <div class="d-flex justify-content-between align-items-center">
+        <div class="header d-flex justify-content-between align-items-center">
           <span class="title">Overview</span>
 
           <!-- ICONS & PROFILE -->
@@ -151,7 +167,8 @@
         </div>
 
         <!-- Top Row -->
-        <div class="row justify-content-between">
+        <div class="row justify-content-between toprow">
+          
           <div class="card top-card card-outline col-sm-3 mt-5 align-items-center justify-content-center">
             <h5 class="grey-header">Unresolved</h5>
             <h1 class="card-title">23</h1>
@@ -168,17 +185,18 @@
             <h5 class="grey-header">On Hold</h5>
             <h1 class="card-title">64</h1>
           </div>
+
         </div>
 
         <!-- 2nd Row -->
         <div class="row">
-          <div class="d-flex card-outline col-sm-12 mt-4 ps-5">
+          <div class="secondrow d-flex card-outline col-sm-12 mt-4 ps-5">
             <div class="col-sm-8">
               <h5 class="mt-5">Today's trends</h5>
               <div class="d-flex justify-content-between">
                 <h6 class="grey-header">as of 25 May 2029, 09:41 PM</h6>
 
-                <div class="d-flex">
+                <div class="d-flex days">
                   <h6 class="grey-header me-5">Today</h6>
                   <h6 class="grey-header me-5">Yesterday</h6>
                 </div>
@@ -193,24 +211,24 @@
             <!-- Right Side-->
             <div class="d-flex flex-column col-sm-4 grey-left-outline">
               <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center grey-bottom-outline">
-                <h5 class="grey-header">Resolved</h5>
-                <h1>449</h1>
+                <h5 class="grey-header secondheader">Resolved</h5>
+                <h1 class="second-number">449</h1>
               </div>
               <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center grey-bottom-outline">
-                <h5 class="grey-header">Received</h5>
-                <h1>426</h1>
+                <h5 class="grey-header secondheader">Received</h5>
+                <h1 class="second-number">426</h1>
               </div>
               <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center grey-bottom-outline">
-                <h5 class="grey-header">Average first response time</h5>
-                <h1>33m</h1>
+                <h5 class="grey-header h5mobile secondheader">Average first response time</h5>
+                <h1 class="second-number">33m</h1>
               </div>
               <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center grey-bottom-outline">
-                <h5 class="grey-header">Average response time</h5>
-                <h1>3h 8m</h1>
+                <h5 class="grey-header secondheader">Average response time</h5>
+                <h1 class="second-number">3h 8m</h1>
               </div>
               <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-                <h5 class="grey-header">Resolution within SLA</h5>
-                <h1>94%</h1>
+                <h5 class="grey-header secondheader">Resolution within SLA</h5>
+                <h1 class="second-number">94%</h1>
               </div>
             </div>
 
