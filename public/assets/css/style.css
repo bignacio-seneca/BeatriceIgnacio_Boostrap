@@ -146,6 +146,32 @@ input[type="radio"] {
     padding-right: 50px;
 }
 
+.nav-item{
+    width: 100% !important;
+}
+
+.nav-link {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    width: 100% !important; /* for hover to take up the full width - NOT WORKING */
+}
+
+.nav-link:hover {
+    background-color: #9FA2B4 !important;
+    color: white !important;
+}
+
+.card:hover h5, .card:hover h1 {
+    color: #007bff; 
+}
+
+.card:hover{
+    border-color:#007bff;
+}
+
+
+
+
 
 @media (max-width: 375px){
     
