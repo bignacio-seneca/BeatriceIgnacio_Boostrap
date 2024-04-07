@@ -1,0 +1,23 @@
+{
+    "name": "Jones Ferdinand",
+    "overview": "Overview",
+    "card": [
+        {
+            "labels": ["Unresolved", "Overdue", "Open", "On Hold"],
+            "data": [23, 16, 43, 64]
+        },
+        {
+            "labels": ["Resolved", "Received", "Average first response", "Average response", "Resolution within SLA", "Today's trends","Yesterday"],
+            "data": [449, 426, "33m", "3h 8m", "94%"],
+            "date": "as of 25 May 2024, 09:41PM"
+            
+        },
+        {
+            "labels": ["Unresolved Tickets", "Waiting on Feature Requests", "Awaiting Customer Response", "Awaiting Developer Fix", "Pending", "Finish ticket update", "Create new ticket example", "Update ticket report", "Tasks", "Create New Task"],
+            "data": [4238, 1005, 281],
+            "day": "Today",
+            "badge": ["URGENT", "NEW", "DEFAULT"]
+        }
+    
+    ]
+}

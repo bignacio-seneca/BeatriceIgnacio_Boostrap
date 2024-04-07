@@ -56,9 +56,7 @@
 
           </div>
 
-
-
-
+          
           <div id="menu" class="collapse navbar-collapse mt-5">
             <div class="d-flex flex-column ">
               <ul class="nav d-flex flex-column">
@@ -148,9 +146,12 @@
       <!-- DASHBOARD -->
       <div class="col-sm-10 mt-5 dash">
 
+        <!---------------------------- CARD 1 ------------------------->
         <!-- HEADER -->
         <div class="header d-flex justify-content-between align-items-center">
-          <span class="title">Overview</span>
+          <span class="title" id="overview"></span>
+
+
 
           <!-- ICONS & PROFILE -->
           <div class="d-flex mt-2">
@@ -158,47 +159,50 @@
               <i class="fa-solid fa-magnifying-glass me-4"></i>
               <i class="fa-solid fa-bell me-5"></i>
             </div>
-
-            <p class="me-4 mt-2" id="demo" >Jones Ferdinand</p>
+           
+            <p class="me-4 mt-2" id="name"></p> 
             <div class="navbar-brand profile"></div>
           </div>
-
-
         </div>
 
         <!-- Top Row -->
         <div class="row justify-content-between toprow">
           
           <div class="card top-card card-outline col-sm-3 mt-5 align-items-center justify-content-center">
-            <h5 class="grey-header">Unresolved</h5>
-            <h1 class="card-title">23</h1>
+            <h5 class="grey-header" id="unresolved"></h5>
+            <h1 class="card-title" id="23"></h1>
           </div>
+
           <div class="card top-card card-outline col-sm-3 mt-5 align-items-center justify-content-center">
-            <h5 class="grey-header">Overdue</h5>
-            <h1 class="card-title">16</h1>
+            <h5 class="grey-header" id="overdue"></h5>
+            <h1 class="card-title" id="16"></h1>
           </div>
+
           <div class="card top-card card-outline col-sm-3 mt-5 align-items-center justify-content-center">
-            <h5 class="grey-header">Open</h5>
-            <h1 class="card-title">43</h1>
+            <h5 class="grey-header" id="open"></h5>
+            <h1 class="card-title" id="43"></h1>
           </div>
+
           <div class="card top-card card-outline col-sm-3 mt-5 align-items-center justify-content-center">
-            <h5 class="grey-header">On Hold</h5>
-            <h1 class="card-title">64</h1>
+            <h5 class="grey-header" id="onhold"></h5>
+            <h1 class="card-title" id="64"></h1>
           </div>
 
         </div>
 
+        <!----------------------------------CARD 2-------------------------->
         <!-- 2nd Row -->
         <div class="row">
           <div class="secondrow d-flex card-outline col-sm-12 mt-4 ps-5">
             <div class="col-sm-8">
-              <h5 class="mt-5">Today's trends</h5>
+
+              <h5 class="mt-5" id="todaystrends"></h5>
               <div class="d-flex justify-content-between">
-                <h6 class="grey-header">as of 25 May 2029, 09:41 PM</h6>
+                <h6 class="grey-header" id="date"></h6>
 
                 <div class="d-flex days">
-                  <h6 class="grey-header me-5">Today</h6>
-                  <h6 class="grey-header me-5">Yesterday</h6>
+                  <h6 class="grey-header me-5" id="today"></h6>
+                  <h6 class="grey-header me-5" id="yesterday"></h6>
                 </div>
               </div>
 
@@ -211,24 +215,29 @@
             <!-- Right Side-->
             <div class="d-flex flex-column col-sm-4 grey-left-outline">
               <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center grey-bottom-outline">
-                <h5 class="grey-header secondheader">Resolved</h5>
-                <h1 class="second-number">449</h1>
+
+                <h5 class="grey-header secondheader" id="resolved"></h5>
+                <h1 class="second-number" id="449"></h1>
               </div>
+
               <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center grey-bottom-outline">
-                <h5 class="grey-header secondheader">Received</h5>
-                <h1 class="second-number">426</h1>
+                <h5 class="grey-header secondheader" id="received"></h5>
+                <h1 class="second-number" id="426"></h1>
               </div>
+
               <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center grey-bottom-outline">
-                <h5 class="grey-header h5mobile secondheader">Average first response time</h5>
-                <h1 class="second-number">33m</h1>
+                <h5 class="grey-header h5mobile secondheader" id="average"></h5>
+                <h1 class="second-number" id="33m"></h1>
               </div>
+
               <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center grey-bottom-outline">
-                <h5 class="grey-header secondheader">Average response time</h5>
-                <h1 class="second-number">3h 8m</h1>
+                <h5 class="grey-header secondheader" id="average2"></h5>
+                <h1 class="second-number" id="3h"></h1>
               </div>
+
               <div class="flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-                <h5 class="grey-header secondheader">Resolution within SLA</h5>
-                <h1 class="second-number">94%</h1>
+                <h5 class="grey-header secondheader" id="resolution"></h5>
+                <h1 class="second-number" id="94"></h1>
               </div>
             </div>
 
@@ -242,7 +251,9 @@
 
             <div class="">
               <div class="d-flex justify-content-between align-items-center mt-5">
-                <h5>Unresolved Tickets</h5>
+
+                <h5 id="UnresolvedTickets"></h5>
+
                 <a href="" class="text-decoration-none">View Details</a>
               </div>
               <h6 class="mt-2 mb-4"><span class="grey-header">Group: </span>Support</h6>
@@ -252,23 +263,23 @@
             <div class="d-flex flex-column col-sm-12 align-self-center table mt-1">
 
               <div class="flex-grow-1 d-flex align-items-center justify-content-between grey-bottom-outline">
-                <h6 class="">Waiting on Feature Request</h6>
-                <p class="grey-header">4238</p>
+                <h6 class="" id="Waiting"></h6>
+                <p class="grey-header" id="4238"></p>
               </div>
 
               <div class="flex-grow-1 d-flex align-items-center justify-content-between grey-bottom-outline">
-                <h6 class="">Awaiting Customer Response</h6>
-                <p class="grey-header">1005</p>
+                <h6 class="" id="awaiting"></h6>
+                <p class="grey-header" id="1005"></p>
               </div>
 
               <div class="flex-grow-1 d-flex align-items-center justify-content-between grey-bottom-outline">
-                <h6 class="">Awaiting Developer Fix</h6>
-                <p class="grey-header">281</p>
+                <h6 class="" id="awaitingdev"></h6>
+                <p class="grey-header" id="281"></p>
               </div>
 
               <div class="flex-grow-1 d-flex align-items-center justify-content-between">
-                <h6 class="">Pending</h6>
-                <p class="grey-header">281</p>
+                <h6 class="" id="pending"></h6>
+                <p class="grey-header" id="281b"></p>
               </div>
 
             </div>
@@ -279,41 +290,41 @@
           <div class="col-sm-6 bottom-card card px-5 d-flex flex-column">
             <div class="">
               <div class="d-flex justify-content-between align-items-center mt-5">
-                <h5>Tasks</h5>
+                <h5 id="tasks"></h5>
                 <a href="" class="text-decoration-none">View Details</a>
               </div>
-              <h6 class="mt-2 mb-4"><span class="grey-header">Today</span></h6>
+              <h6 class="mt-2 mb-4"><span class="grey-header" id="todayb"></span></h6>
             </div>
 
             <div class="d-flex flex-column col-sm-12 align-self-center table mt-1">
 
               <div class="flex-grow-1 d-flex align-items-center justify-content-between grey-bottom-outline">
-                <h6 class="" style="color: #C5C7CD">Create new task</h6>
+                <h6 class="" style="color: #C5C7CD" id="createnew"></h6>
                 <button type="button" class="btn btn-light">+</button>
               </div>
 
               <div class="flex-grow-1 d-flex align-items-center justify-content-between grey-bottom-outline">
                 <div class="d-flex align-items-center">
                   <input type="radio" name="radio" class="radio">
-                  <h6 class="mt-2">Finish ticket update</h6>
+                  <h6 class="mt-2" id="finish"></h6>
                 </div>
-                <span class="badge yellow">URGENT</span>
+                <span class="badge yellow" id="urgent"></span>
               </div>
 
               <div class="flex-grow-1 d-flex align-items-center justify-content-between grey-bottom-outline">
                 <div class="d-flex align-items-center">
                   <input type="radio" class="radio">
-                  <h6 class="mt-2">Create new ticket example</h6>
+                  <h6 class="mt-2" id="example"></h6>
                 </div>
-                <span class="badge green">NEW</span>
+                <span class="badge green" id="new"></span>
               </div>
 
               <div class="flex-grow-1 d-flex align-items-center justify-content-between">
                 <div class="d-flex align-items-center">
                   <input type="radio" class="radio">
-                  <h6 class="mt-2">Update ticket report</h6>
+                  <h6 class="mt-2" id="update"></h6>
                 </div>
-                <span class="badge grey">DEFAULT</span>
+                <span class="badge grey" id="default"></span>
               </div>
 
             </div>
@@ -326,11 +337,12 @@
     </div>
 
   </div>
+  <script src="./js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <script src="/js/main.js"></script>
+
 </body>
 
 </html>
